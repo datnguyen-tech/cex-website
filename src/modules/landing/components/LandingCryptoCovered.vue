@@ -113,7 +113,7 @@
 </template>
 
 <script setup lang="ts">
-  import CardCovered from '@/components/covered/CardCovered.vue'
+  import CardCovered from '@/components/card/CardCovered.vue'
 </script>
 
 <style scoped lang="scss">

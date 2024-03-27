@@ -92,3 +92,11 @@ div::-webkit-scrollbar-thumb {
   max-width: 1130px;
   margin: 0 auto;
 }
+
+.bg-blue {
+  background: linear-gradient(184.5deg, rgb(38, 221, 249) 2.88%, rgb(0, 176, 203) 76.95%);
+}
+
+.bg-yellow {
+  background: linear-gradient(114.57deg, rgb(250, 233, 188) 4.52%, rgb(218, 190, 118) 96.38%), rgb(190, 186, 162);
+}
