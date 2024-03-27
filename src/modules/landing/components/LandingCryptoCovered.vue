@@ -110,10 +110,13 @@
       </card-covered>
     </div>
   </section>
+  <langding-footer />
 </template>
 
 <script setup lang="ts">
   import CardCovered from '@/components/covered/CardCovered.vue'
+
+  import LangdingFooter from './LangdingFooter.vue'
 </script>
 
 <style scoped lang="scss">
