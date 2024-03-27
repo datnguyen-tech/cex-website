@@ -220,7 +220,7 @@
 
     <div class="flex justify-center items-center mb-[15px]">
       <div class="bg-white p-5 rounded-[30px]">
-        <span class="__transition p-3 text-sm rounded-[30px] cursor-pointer"
+        <span class="__transition p-3 text-sm rounded-[30px] cursor-pointer mr-2"
           :class="{ isActiveBtn: isActiveBtn == 'EXCHANGE' }" @click="() => isActiveBtn = 'EXCHANGE'">
           View the Exchange
         </span>
