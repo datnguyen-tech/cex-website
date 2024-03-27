@@ -4,7 +4,7 @@
       <div class="front h-full">
         <slot name="front"></slot>
         <div class="absolute bottom-[14px] right-[14px] z-20" @click="handleClickButton">
-          <base-icon name="plus-circle" size="32" class="cursor-pointer text-white"></base-icon>
+          <base-icon name="plus-circle" size="32" class="cursor-pointer text-[#e4e4e4]"></base-icon>
         </div>
       </div>
       <div class="back">
