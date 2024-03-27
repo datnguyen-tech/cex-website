@@ -1,0 +1,89 @@
+@import "./reset";
+@import "./variable";
+@import "./element";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif !important;
+}
+body {
+  background-color: #dbdbdb;
+  color: var(--ai-text-primary);
+  overflow-y: hidden;
+  width: 100% !important;
+}
+.el-popup-parent--hidden {
+  width: 100% !important;
+}
+
+#nprogress .bar {
+  background: var(--ai-color-primary) !important;
+  .peg {
+    box-shadow:
+      0 0 10px #ff5500cc,
+      0 0 5px #ff5500cc;
+  }
+}
+
+div::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: #f5f5f5;
+}
+
+div::-webkit-scrollbar {
+  width: 8px;
+  background-color: #f5f5f5;
+  height: 6px;
+}
+
+div::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #9093995c;
+}
+
+.status-pending {
+  color: var(--ai-color-pending);
+  border-color: var(--ai-border-pending);
+  background-color: var(--ai-bg-pending);
+}
+
+.status-submitted,
+.status-draft,
+.status-placed,
+.status-scheduled,
+.status-unpaid,
+.status-invited {
+  color: var(--ai-color-draft);
+  border-color: var(--ai-border-draft);
+  background-color: var(--ai-bg-draft);
+}
+
+.status-confirm,
+.status-confirmed,
+.status-issued {
+  color: var(--ai-color-confirm);
+  border-color: var(--ai-border-confirm);
+  background-color: var(--ai-bg-confirm);
+}
+
+.status-resolved,
+.status-complete,
+.status-completed,
+.status-applied,
+.status-paid,
+.status-accepted,
+.status-active {
+  color: var(--ai-color-complete);
+  border-color: var(--ai-border-complete);
+  background-color: var(--ai-bg-complete);
+}
+
+.status-rejected,
+.status-error,
+.status-cancelled,
+.status-n\/a {
+  color: var(--ai-color-error);
+  border-color: var(--ai-border-error);
+  background-color: var(--ai-bg-error);
+}

@@ -1,0 +1,15 @@
+.base-drawer.el-drawer {
+    .el-drawer__header {
+        color: var(--ai-text-primary);
+        margin-bottom: 10px;
+        .el-drawer__close-btn {
+            display: none;
+        }
+    }
+    .el-drawer__body {
+        flex: none;
+    }
+    .el-drawer__footer {
+        padding: 0;
+    }
+}
