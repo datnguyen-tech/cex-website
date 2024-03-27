@@ -5,7 +5,6 @@
 @layer base {
 
 
-
   .content-block {
     border: 1px solid var(--dr-border-primary);
     border-radius: 12px;

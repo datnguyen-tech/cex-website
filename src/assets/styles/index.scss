@@ -87,3 +87,8 @@ div::-webkit-scrollbar-thumb {
   border-color: var(--ai-border-error);
   background-color: var(--ai-bg-error);
 }
+
+.cex-container {
+  max-width: 1130px;
+  margin: 0 auto;
+}

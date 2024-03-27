@@ -15,13 +15,13 @@ export default {
         hover: 'var(--ai-color-primary)',
         tab: 'var(--ai-text-tab)',
         placeholder: 'var(--ai-text-placeholder)',
-        'dr-border-primary': 'var(--ai-border-primary)',
-        'dr-border-secondary': 'var(--ai-border-secondary)',
-        'dr-border-input': 'var(--ai-border-input)',
-        'dr-border-hover': 'var(--ai-border-hover)',
-        'dr-bg-primary': 'var(--ai-bg-primary)',
-        'dr-text-primary': 'var(--ai-text-primary)',
-        'dr-text-label-mobile': 'var(--ai-text-input-label-mobile)'
+        'cex-border-primary': 'var(--ai-border-primary)',
+        'cex-border-secondary': 'var(--ai-border-secondary)',
+        'cex-border-input': 'var(--ai-border-input)',
+        'cex-border-hover': 'var(--ai-border-hover)',
+        'cex-bg-primary': 'var(--ai-bg-primary)',
+        'cex-text-primary': 'var(--ai-text-primary)',
+        'cex-text-label-mobile': 'var(--ai-text-input-label-mobile)'
       },
       fontSize: {
         '3xl': ['2rem', '2.5rem'],
