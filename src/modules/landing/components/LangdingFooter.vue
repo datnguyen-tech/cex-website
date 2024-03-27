@@ -1,15 +1,16 @@
 <template>
-    <div class="mx-20 flex">
-        <div class="block1 mt-15">
-            <div class="mt-20">
-                <img src="../../../assets/image/image.webp" alt="" class="mb-[32px]" />
+    <div class="bg-white">
+        <div class="cex-container mx-auto flex bg-white">
+            <div class="block1 mt-15">
+                <div class="mt-20">
+                    <img src="../../../assets/image/image.webp" alt="" class="mb-[32px]" />
 
-                <div>
-                    <div class="lable">Stay up to date</div>
-                    <input type="text" name="" placeholder="Email address" class="inputEmail my-5 w-44" />
-                </div>
-                <button class="btn">Subscribe</button>
-                <div class="listIcon mt-[200%] flex justify-around">
+                    <div>
+                        <div class="lable">Stay up to date</div>
+                        <input type="text" name="" placeholder="Email address" class="inputEmail my-5 w-44" />
+                    </div>
+                    <button class="btn">Subscribe</button>
+                    <!-- <div class="listIcon mt-[200%] flex justify-around">
                     <div class="icon">
                         <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 16 16">
                             <path
@@ -66,190 +67,191 @@
                             />
                         </svg>
                     </div>
+                </div> -->
                 </div>
             </div>
-        </div>
 
-        <div class="block1 mt-20 pl-10">
-            <div class="name-title">Products</div>
-            <ul>
-                <a href="#">
-                    <li>Exchange</li>
-                </a>
-                <a href="#">
-                    <li>Mobile</li>
-                </a>
-                <a href="#">
-                    <li>Derivatives</li>
-                </a>
-                <a href="#">
-                    <li>Active Trader</li>
-                </a>
-                <a href="#">
-                    <li>Credit card</li>
-                </a>
-                <a href="#">
-                    <li>Staking</li>
-                </a>
-                <a href="#">
-                    <li>Gemini</li>
-                </a>
-                <a href="#">
-                    <li class="mb-10">View All</li>
-                </a>
-            </ul>
+            <div class="block1 mt-20 pl-10">
+                <div class="name-title">Products</div>
+                <ul>
+                    <a href="#">
+                        <li>Exchange</li>
+                    </a>
+                    <a href="#">
+                        <li>Mobile</li>
+                    </a>
+                    <a href="#">
+                        <li>Derivatives</li>
+                    </a>
+                    <a href="#">
+                        <li>Active Trader</li>
+                    </a>
+                    <a href="#">
+                        <li>Credit card</li>
+                    </a>
+                    <a href="#">
+                        <li>Staking</li>
+                    </a>
+                    <a href="#">
+                        <li>Gemini</li>
+                    </a>
+                    <a href="#">
+                        <li class="mb-10">View All</li>
+                    </a>
+                </ul>
 
-            <div class="name-title">Institutions</div>
-            <ul>
-                <a href="#">
-                    <li>Institutions Home</li>
-                </a>
-                <a href="#">
-                    <li>Exchange</li>
-                </a>
-                <a href="#">
-                    <li>Custody</li>
-                </a>
-                <a href="#">
-                    <li>eOTC</li>
-                </a>
-                <a href="#">
-                    <li>Businesses and Private Wealth</li>
-                </a>
-                <a href="#">
-                    <li>Professional Traders</li>
-                </a>
-                <a href="#">
-                    <li>Institutional Investors</li>
-                </a>
-                <a href="#">
-                    <li>Fintechs and Banks</li>
-                </a>
-            </ul>
-        </div>
+                <div class="name-title">Institutions</div>
+                <ul>
+                    <a href="#">
+                        <li>Institutions Home</li>
+                    </a>
+                    <a href="#">
+                        <li>Exchange</li>
+                    </a>
+                    <a href="#">
+                        <li>Custody</li>
+                    </a>
+                    <a href="#">
+                        <li>eOTC</li>
+                    </a>
+                    <a href="#">
+                        <li>Businesses and Private Wealth</li>
+                    </a>
+                    <a href="#">
+                        <li>Professional Traders</li>
+                    </a>
+                    <a href="#">
+                        <li>Institutional Investors</li>
+                    </a>
+                    <a href="#">
+                        <li>Fintechs and Banks</li>
+                    </a>
+                </ul>
+            </div>
 
-        <div class="block1 mt-20 pl-10">
-            <div class="name-title">Resources</div>
-            <ul>
-                <a href="#">
-                    <li>Prices</li>
-                </a>
-                <a href="#">
-                    <li>Gemini Blog</li>
-                </a>
-                <a href="#">
-                    <li>Trust Center</li>
-                </a>
-                <a href="#">
-                    <li>About</li>
-                </a>
-                <a href="#">
-                    <li>Cryptopedia</li>
-                </a>
-                <a href="#">
-                    <li>Newsroom</li>
-                </a>
-                <a href="#">
-                    <li>Videos</li>
-                </a>
-                <a href="#">
-                    <li>Product Updates</li>
-                </a>
-                <a href="#">
-                    <li>Security</li>
-                </a>
-                <a href="#">
-                    <li>Trust and safety</li>
-                </a>
-            </ul>
-        </div>
+            <div class="block1 mt-20 pl-10">
+                <div class="name-title">Resources</div>
+                <ul>
+                    <a href="#">
+                        <li>Prices</li>
+                    </a>
+                    <a href="#">
+                        <li>Gemini Blog</li>
+                    </a>
+                    <a href="#">
+                        <li>Trust Center</li>
+                    </a>
+                    <a href="#">
+                        <li>About</li>
+                    </a>
+                    <a href="#">
+                        <li>Cryptopedia</li>
+                    </a>
+                    <a href="#">
+                        <li>Newsroom</li>
+                    </a>
+                    <a href="#">
+                        <li>Videos</li>
+                    </a>
+                    <a href="#">
+                        <li>Product Updates</li>
+                    </a>
+                    <a href="#">
+                        <li>Security</li>
+                    </a>
+                    <a href="#">
+                        <li>Trust and safety</li>
+                    </a>
+                </ul>
+            </div>
 
-        <div class="block1 mt-20 pl-10">
-            <div class="name-title">Partners</div>
-            <ul>
-                <a href="#">
-                    <li>Samsung</li>
-                </a>
-                <a href="#">
-                    <li>Trading View</li>
-                </a>
-                <a href="#">
-                    <li>Brave</li>
-                </a>
-                <a href="#">
-                    <li>Nefty Gateway</li>
-                </a>
-                <a href="#">
-                    <li>Referral Program</li>
-                </a>
-                <a href="#">
-                    <li>Frontier Fund</li>
-                </a>
-                <a href="#">
-                    <li>View All</li>
-                </a>
-            </ul>
-        </div>
+            <div class="block1 mt-20 pl-10">
+                <div class="name-title">Partners</div>
+                <ul>
+                    <a href="#">
+                        <li>Samsung</li>
+                    </a>
+                    <a href="#">
+                        <li>Trading View</li>
+                    </a>
+                    <a href="#">
+                        <li>Brave</li>
+                    </a>
+                    <a href="#">
+                        <li>Nefty Gateway</li>
+                    </a>
+                    <a href="#">
+                        <li>Referral Program</li>
+                    </a>
+                    <a href="#">
+                        <li>Frontier Fund</li>
+                    </a>
+                    <a href="#">
+                        <li>View All</li>
+                    </a>
+                </ul>
+            </div>
 
-        <div class="block1 mt-20 pl-10">
-            <div class="name-title">Company</div>
-            <ul>
-                <a href="#">
-                    <li>Careers</li>
-                </a>
-                <a href="#">
-                    <li>Careers in India</li>
-                </a>
-                <a href="#">
-                    <li>Students</li>
-                </a>
-                <a href="#">
-                    <li>Support Center</li>
-                </a>
-                <a href="#">
-                    <li>Contact Us</li>
-                </a>
-                <a href="#">
-                    <li>System Status</li>
-                </a>
-                <a href="#">
-                    <li>Areas of Availability</li>
-                </a>
-                <a href="#">
-                    <li>API Docs</li>
-                </a>
-                <a href="#">
-                    <li>Marketplace and Fees</li>
-                </a>
-                <a href="#">
-                    <li>Legal Agreements</li>
-                </a>
-                <a href="#">
-                    <li>Privacy Policy</li>
-                </a>
-                <a href="#">
-                    <li>User Agreement and State Disclosures</li>
-                </a>
-                <a href="#">
-                    <li>Do Not Share My Personal Information</li>
-                </a>
-            </ul>
+            <div class="block1 mt-20 pl-10">
+                <div class="name-title">Company</div>
+                <ul>
+                    <a href="#">
+                        <li>Careers</li>
+                    </a>
+                    <a href="#">
+                        <li>Careers in India</li>
+                    </a>
+                    <a href="#">
+                        <li>Students</li>
+                    </a>
+                    <a href="#">
+                        <li>Support Center</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact Us</li>
+                    </a>
+                    <a href="#">
+                        <li>System Status</li>
+                    </a>
+                    <a href="#">
+                        <li>Areas of Availability</li>
+                    </a>
+                    <a href="#">
+                        <li>API Docs</li>
+                    </a>
+                    <a href="#">
+                        <li>Marketplace and Fees</li>
+                    </a>
+                    <a href="#">
+                        <li>Legal Agreements</li>
+                    </a>
+                    <a href="#">
+                        <li>Privacy Policy</li>
+                    </a>
+                    <a href="#">
+                        <li>User Agreement and State Disclosures</li>
+                    </a>
+                    <a href="#">
+                        <li>Do Not Share My Personal Information</li>
+                    </a>
+                </ul>
+            </div>
         </div>
-    </div>
-    <div class="footer-bottom mx-20 flex">
-        <p class="mr-20 mt-[8px] text-xs">© Copyright 2024 Gemini Space Station, LLC or its affiliates.</p>
+        <div class="footer-bottom cex-container mx-auto flex bg-white">
+            <p class="mr-20 mt-[8px] text-xs">© Copyright 2024 Gemini Space Station, LLC or its affiliates.</p>
 
-        <span class="mr-10 mt-[8px] text-xs">NMLS #1518126</span>
-        <div>
-            <a href="#" class="mb-6 mr-10 text-xs">Legal Notice</a>
-        </div>
-        <div class="mr-10">
-            <p class="mt-[8px] text-xs">
-                This site is protected by reCAPTCHA and the
-                <a href="#" target="_blank" class="text-xs">Google Privacy Policy</a>
-                and
-                <a href="#" target="_blank" class="text-xs">Terms of Service</a> apply.
-            </p>
+            <span class="mr-10 mt-[8px] text-xs">NMLS #1518126</span>
+            <div>
+                <a href="#" class="mb-6 mr-10 text-xs">Legal Notice</a>
+            </div>
+            <div class="mr-10">
+                <p class="mt-[8px] text-xs">
+                    This site is protected by reCAPTCHA and the
+                    <a href="#" target="_blank" class="text-xs">Google Privacy Policy</a>
+                    and
+                    <a href="#" target="_blank" class="text-xs">Terms of Service</a> apply.
+                </p>
+            </div>
         </div>
     </div>
 </template>
@@ -340,5 +342,9 @@
             font-size: 14px;
             margin-bottom: 20px;
         }
+    }
+
+    .cex-container {
+        max-width: 1360px;
     }
 </style>
