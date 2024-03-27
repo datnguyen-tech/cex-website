@@ -29,12 +29,12 @@
 </template>
 
 <script setup lang="ts">
-  interface IProp {
-    type: 'small' | 'large'
-  }
-  const props = withDefaults(defineProps<IProp>(), {
-    type: 'large'
-  })
+interface IProp {
+  type: 'small' | 'large'
+}
+const props = withDefaults(defineProps<IProp>(), {
+  type: 'large'
+})
 </script>
 
 <style scoped></style>
