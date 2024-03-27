@@ -1,5 +1,5 @@
 <template>
-  <div class="cex-container mt-20">
+  <div class="cex-container mt-24">
     <h2 class="text-center text-6xl font-bold text-[#4d4f4f]">A safe place for your crypto</h2>
     <p class="mx-auto mb-[39px] mt-3 max-w-[780px] text-center text-3xl font-medium text-[#4d4f4f]">
       We’re focused on providing innovative security solutions to protect your assets.

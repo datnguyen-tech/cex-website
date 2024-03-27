@@ -3,10 +3,12 @@
     <landing-crypto-covered />
     <landing-rotate-card />
     <landing-safe />
+    <landing-business />
   </div>
 </template>
 
 <script setup lang="ts">
+  import LandingBusiness from '../components/LandingBusiness.vue'
   import LandingCryptoCovered from '../components/LandingCryptoCovered.vue'
   import LandingRotateCard from '../components/LandingRotateCard.vue'
   import LandingSafe from '../components/LandingSafe.vue'
