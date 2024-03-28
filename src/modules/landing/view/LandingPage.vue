@@ -1,5 +1,6 @@
 <template>
     <div class="landing">
+        <landing-header />
         <landing-crypto-covered />
         <landing-rotate-card />
         <landing-safe />
@@ -12,6 +13,7 @@
 <script setup lang="ts">
     import LandingBusiness from '../components/LandingBusiness.vue'
     import LandingCryptoCovered from '../components/LandingCryptoCovered.vue'
+    import LandingHeader from '../components/LandingHeader.vue'
     import LandingPortfolio from '../components/LandingPortfolio.vue'
     import LandingRotateCard from '../components/LandingRotateCard.vue'
     import LandingSafe from '../components/LandingSafe.vue'
