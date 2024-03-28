@@ -35,7 +35,7 @@
         alt="homepage-yourportfolio-bg-black@2x" loading="lazy" decoding="async" style="object-fit: inherit" />
     </div>
 
-    <div class="mb-20 mt-[150px] grid grid-cols-3 gap-[18px] sm:grid-cols-1">
+    <div class="mb-20 mt-[150px] grid grid-cols-3 gap-[18px] sm:grid-cols-1 sm:mt-[80px]">
       <div class="flex flex-col items-start justify-start rounded-[15px] bg-white px-7 py-8">
         <img
           src="https://images.ctfassets.net/jg6lo9a2ukvr/NvIBm45dTq7Bd5Lb0g7bW/d2c9d03f9f8e6485df28d515026adf6e/customView.png?fm=webp"

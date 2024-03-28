@@ -1,7 +1,7 @@
 <template>
     <div class="bg-white">
-        <div class="cex-container mx-auto flex bg-white">
-            <div class="block1 mt-15">
+        <div class="cex-container mx-auto flex bg-white sm:flex-wrap px-8">
+            <div class="block1 mt-15 sm:!w-auto">
                 <div class="mt-20">
                     <img src="../../../assets/image/image.webp" alt="" class="mb-[32px]" />
 
@@ -71,7 +71,7 @@
                 </div>
             </div>
 
-            <div class="block1 mt-20 pl-10">
+            <div class="block1 mt-20 pl-10 sm:hidden">
                 <div class="name-title">Products</div>
                 <ul>
                     <a href="#">
@@ -129,7 +129,72 @@
                 </ul>
             </div>
 
-            <div class="block1 mt-20 pl-10">
+            <base-expand-drop-down class="sm:block; mt-10" :isShowBorderTop="true">
+                <template #default>
+                    <div class="flex grow items-center justify-start">
+                        <span class="mr-3 text-base">Products</span>
+                    </div>
+                </template>
+                <template #content>
+                    <div class="name-title">Products</div>
+                    <ul>
+                        <a href="#">
+                            <li>Exchange</li>
+                        </a>
+                        <a href="#">
+                            <li>Mobile</li>
+                        </a>
+                        <a href="#">
+                            <li>Derivatives</li>
+                        </a>
+                        <a href="#">
+                            <li>Active Trader</li>
+                        </a>
+                        <a href="#">
+                            <li>Credit card</li>
+                        </a>
+                        <a href="#">
+                            <li>Staking</li>
+                        </a>
+                        <a href="#">
+                            <li>Gemini</li>
+                        </a>
+                        <a href="#">
+                            <li class="mb-10">View All</li>
+                        </a>
+                    </ul>
+
+                    <div class="name-title">Institutions</div>
+                    <ul>
+                        <a href="#">
+                            <li>Institutions Home</li>
+                        </a>
+                        <a href="#">
+                            <li>Exchange</li>
+                        </a>
+                        <a href="#">
+                            <li>Custody</li>
+                        </a>
+                        <a href="#">
+                            <li>eOTC</li>
+                        </a>
+                        <a href="#">
+                            <li>Businesses and Private Wealth</li>
+                        </a>
+                        <a href="#">
+                            <li>Professional Traders</li>
+                        </a>
+                        <a href="#">
+                            <li>Institutional Investors</li>
+                        </a>
+                        <a href="#">
+                            <li>Fintechs and Banks</li>
+                        </a>
+                    </ul>
+                </template>
+            </base-expand-drop-down>
+
+            <div class="block1 mt-20 pl-10 sm:hidden">
                 <div class="name-title">Resources</div>
                 <ul>
                     <a href="#">
@@ -165,7 +230,50 @@
                 </ul>
             </div>
 
-            <div class="block1 mt-20 pl-10">
+            <base-expand-drop-down class="sm:block;">
+                <template #default>
+                    <div class="flex grow items-center justify-start">
+                        <span class="mr-3 text-base">Resources</span>
+                    </div>
+                </template>
+                <template #content>
+                    <div class="name-title">Resources</div>
+                    <ul>
+                        <a href="#">
+                            <li>Prices</li>
+                        </a>
+                        <a href="#">
+                            <li>Gemini Blog</li>
+                        </a>
+                        <a href="#">
+                            <li>Trust Center</li>
+                        </a>
+                        <a href="#">
+                            <li>About</li>
+                        </a>
+                        <a href="#">
+                            <li>Cryptopedia</li>
+                        </a>
+                        <a href="#">
+                            <li>Newsroom</li>
+                        </a>
+                        <a href="#">
+                            <li>Videos</li>
+                        </a>
+                        <a href="#">
+                            <li>Product Updates</li>
+                        </a>
+                        <a href="#">
+                            <li>Security</li>
+                        </a>
+                        <a href="#">
+                            <li>Trust and safety</li>
+                        </a>
+                    </ul>
+                </template>
+            </base-expand-drop-down>
+
+            <div class="block1 mt-20 pl-10 sm:hidden">
                 <div class="name-title">Partners</div>
                 <ul>
                     <a href="#">
@@ -192,7 +300,41 @@
                 </ul>
             </div>
 
-            <div class="block1 mt-20 pl-10">
+            <base-expand-drop-down class="sm:block;">
+                <template #default>
+                    <div class="flex grow items-center justify-start">
+                        <span class="mr-3 text-base">Partners</span>
+                    </div>
+                </template>
+                <template #content>
+                    <div class="name-title">Partners</div>
+                    <ul>
+                        <a href="#">
+                            <li>Samsung</li>
+                        </a>
+                        <a href="#">
+                            <li>Trading View</li>
+                        </a>
+                        <a href="#">
+                            <li>Brave</li>
+                        </a>
+                        <a href="#">
+                            <li>Nefty Gateway</li>
+                        </a>
+                        <a href="#">
+                            <li>Referral Program</li>
+                        </a>
+                        <a href="#">
+                            <li>Frontier Fund</li>
+                        </a>
+                        <a href="#">
+                            <li>View All</li>
+                        </a>
+                    </ul>
+                </template>
+            </base-expand-drop-down>
+
+            <div class="block1 mt-20 pl-10 sm:hidden">
                 <div class="name-title">Company</div>
                 <ul>
                     <a href="#">
@@ -236,20 +378,78 @@
                     </a>
                 </ul>
             </div>
-        </div>
-        <div class="footer-bottom cex-container mx-auto flex bg-white">
-            <p class="mr-20 mt-[8px] text-xs">© Copyright 2024 Gemini Space Station, LLC or its affiliates.</p>
 
-            <span class="mr-10 mt-[8px] text-xs">NMLS #1518126</span>
+            <base-expand-drop-down class="sm:block;">
+                <template #default>
+                    <div class="flex grow items-center justify-start">
+                        <span class="mr-3 text-base">Company</span>
+                    </div>
+                </template>
+                <template #content>
+                    <div class="name-title">Company</div>
+                    <ul>
+                        <a href="#">
+                            <li>Careers</li>
+                        </a>
+                        <a href="#">
+                            <li>Careers in India</li>
+                        </a>
+                        <a href="#">
+                            <li>Students</li>
+                        </a>
+                        <a href="#">
+                            <li>Support Center</li>
+                        </a>
+                        <a href="#">
+                            <li>Contact Us</li>
+                        </a>
+                        <a href="#">
+                            <li>System Status</li>
+                        </a>
+                        <a href="#">
+                            <li>Areas of Availability</li>
+                        </a>
+                        <a href="#">
+                            <li>API Docs</li>
+                        </a>
+                        <a href="#">
+                            <li>Marketplace and Fees</li>
+                        </a>
+                        <a href="#">
+                            <li>Legal Agreements</li>
+                        </a>
+                        <a href="#">
+                            <li>Privacy Policy</li>
+                        </a>
+                        <a href="#">
+                            <li>User Agreement and State Disclosures</li>
+                        </a>
+                        <a href="#">
+                            <li>Do Not Share My Personal Information</li>
+                        </a>
+                    </ul>
+                </template>
+            </base-expand-drop-down>
+        </div>
+        <div
+            class="footer-bottom cex-container mx-auto flex bg-white sm:flex-wrap sm:!h-[230px] sm:py-10 sm:justify-center sm:items-center sm:px-10">
+            <p class="mr-20 mt-[8px] text-xs sm:m-auto sm:text-center">© Copyright 2024 Gemini Space Station, LLC or its
+                affiliates.
+            </p>
+
+            <span class="mr-10 mt-[8px] text-xs  sm:text-start">NMLS #1518126</span>
             <div>
-                <a href="#" class="mb-6 mr-10 text-xs">Legal Notice</a>
+                <a href="#" class="mb-6 mr-10 text-xs sm:m-auto">Legal Notice</a>
             </div>
-            <div class="mr-10">
-                <p class="mt-[8px] text-xs">
+            <div class="mr-10 sm:mb-20 sm:mt-5 sm:mr-0">
+                <p class="mt-[8px] text-xs sm:hidden">
                     This site is protected by reCAPTCHA and the
                     <a href="#" target="_blank" class="text-xs">Google Privacy Policy</a>
                     and
                     <a href="#" target="_blank" class="text-xs">Terms of Service</a> apply.
+                </p>
+                <p class="mt-[8px] text-xs sm:block text-center">
+                    This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
                 </p>
             </div>
         </div>
@@ -257,97 +457,111 @@
 </template>
 
 <style scoped lang="scss">
-    .block1 {
-        width: 20%;
-        .listIcon {
-            .icon {
-                padding: 10px;
-                border-radius: 50%;
-                background-color: rgb(255, 255, 255);
-                svg {
-                    width: 20px;
-                    height: 20px;
-                }
-            }
-        }
-        .lable {
-            width: 100%;
-            margin-bottom: 8px;
-            font-weight: 500;
-            align-self: flex-start;
-            min-width: 120px;
-            margin-bottom: 12px;
-            display: inline-flex;
-            font-size: 1.2rem;
-        }
-        .name-title {
-            width: 100%;
-            margin-bottom: 8px;
-            font-weight: 600;
-            align-self: flex-start;
-            min-width: 120px;
-            margin-bottom: 12px;
-            display: inline-flex;
-            font-size: 1.1rem;
-        }
-        .inputEmail {
-            color: rgb(1, 3, 4);
-            border: 1px solid rgb(1, 3, 4);
-            box-sizing: border-box;
-            border-radius: 10px;
-            background: transparent;
-            padding: 8px;
-            height: 56px;
-            width: 100%;
-        }
-        .btn {
-            background-color: black;
-            padding: 20px 40px;
-            color: white;
-            border-radius: 30px;
-        }
-        .lable {
-            font-weight: 600;
-        }
-        ul {
-            a {
-                li {
-                    padding: 8px 0;
-                    font-size: 1rem;
-                }
-            }
-        }
-    }
-    .footer-bottom {
-        height: 70px;
-        display: flex;
-        align-items: center;
-        border-top: 1px solid #dbdbdb;
-        margin-top: 40px;
-        .icon-globe {
+.block1 {
+    width: 20%;
+
+    .listIcon {
+        .icon {
             padding: 10px;
             border-radius: 50%;
+            background-color: rgb(255, 255, 255);
+
             svg {
                 width: 20px;
                 height: 20px;
             }
         }
-        .el-dropdown-link {
-            cursor: pointer;
-            color: #409eff;
+    }
+
+    .lable {
+        width: 100%;
+        margin-bottom: 8px;
+        font-weight: 500;
+        align-self: flex-start;
+        min-width: 120px;
+        margin-bottom: 12px;
+        display: inline-flex;
+        font-size: 1.2rem;
+    }
+
+    .name-title {
+        width: 100%;
+        margin-bottom: 8px;
+        font-weight: 600;
+        align-self: flex-start;
+        min-width: 120px;
+        margin-bottom: 12px;
+        display: inline-flex;
+        font-size: 1.1rem;
+    }
+
+    .inputEmail {
+        color: rgb(1, 3, 4);
+        border: 1px solid rgb(1, 3, 4);
+        box-sizing: border-box;
+        border-radius: 10px;
+        background: transparent;
+        padding: 8px;
+        height: 56px;
+        width: 100%;
+    }
+
+    .btn {
+        background-color: black;
+        padding: 20px 40px;
+        color: white;
+        border-radius: 30px;
+    }
+
+    .lable {
+        font-weight: 600;
+    }
+
+    ul {
+        a {
+            li {
+                padding: 8px 0;
+                font-size: 1rem;
+            }
         }
-        .el-icon-arrow-down {
-            font-size: 12px;
-        }
-        .demonstration {
-            display: block;
-            color: #8492a6;
-            font-size: 14px;
-            margin-bottom: 20px;
+    }
+}
+
+.footer-bottom {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #dbdbdb;
+    margin-top: 40px;
+
+    .icon-globe {
+        padding: 10px;
+        border-radius: 50%;
+
+        svg {
+            width: 20px;
+            height: 20px;
         }
     }
 
-    .cex-container {
-        max-width: 1360px;
+    .el-dropdown-link {
+        cursor: pointer;
+        color: #409eff;
     }
+
+    .el-icon-arrow-down {
+        font-size: 12px;
+    }
+
+    .demonstration {
+        display: block;
+        color: #8492a6;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+}
+
+.cex-container {
+    max-width: 1360px;
+}
 </style>
