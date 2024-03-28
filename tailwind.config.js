@@ -7,7 +7,7 @@ export default {
     },
     screens: {
       'sm': {
-        'max': '639px'
+        'max': '768px'
       },
     },
     extend: {

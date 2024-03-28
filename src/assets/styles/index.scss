@@ -10,7 +10,7 @@ html {
 body {
   background-color: #dbdbdb;
   color: var(--ai-text-primary);
-  overflow-y: hidden;
+  // overflow-y: hidden;
   width: 100% !important;
 }
 .el-popup-parent--hidden {
@@ -92,7 +92,7 @@ div::-webkit-scrollbar-thumb {
   max-width: 1130px;
   margin: 0 auto;
 
-  @media screen and (max-width: 639px) {
+  @media screen and (max-width: 768px) {
     max-width: calc(100% - 40px) !important;
   }
 }

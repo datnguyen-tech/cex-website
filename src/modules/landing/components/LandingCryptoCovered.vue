@@ -67,7 +67,7 @@
                 <template #title-bottom> ActiveTrader </template>
             </card-covered>
 
-            <div class="grid grid-cols-3 gap-[18px]">
+            <div class="grid grid-cols-3 gap-[18px] sm:grid-cols-1">
                 <card-covered type="small" class="card">
                     <div>
                         <picture>
@@ -78,7 +78,7 @@
                             />
                         </picture>
                     </div>
-                    <h2 class="mt-5 text-5xl font-semibold text-white">Invest when you spend</h2>
+                    <h2 class="mt-5 text-5xl font-semibold text-white sm:text-[44px]">Invest when you spend</h2>
                     <p class="mt-2 text-[10px] leading-[15px] text-white">
                         Engaging with crypto involves risks, including the risk of your crypto rewards declining in value over
                         time. Past performance no guarantee of future results. A Gemini Mastercard®. Issued by WebBank. Terms
@@ -121,6 +121,12 @@
                         <img
                             src="https://images.ctfassets.net/jg6lo9a2ukvr/OrgTcbtDDqbik3DnxwaK9/1413ce4d6e1d8553c833c7467580773e/homepage-perpsBg.png?fm=webp"
                             alt="Mobile Image-ATI Mobile App Section"
+                            class="sm:hidden"
+                        />
+                        <img
+                            src="https://images.ctfassets.net/jg6lo9a2ukvr/5u0HiC5SA6W9Ct4VJ8ATY9/2a3bff404081b2b3311b787bb7795047/derivativesBgMobile__1_.jpg?fm=webp"
+                            alt=""
+                            class="hidden h-full w-full object-cover sm:block"
                         />
                     </picture>
                 </template>
