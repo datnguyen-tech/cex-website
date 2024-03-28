@@ -320,6 +320,9 @@
     }
     .footer-bottom {
         height: 70px;
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #dbdbdb;
         margin-top: 40px;
         .icon-globe {
             padding: 10px;
