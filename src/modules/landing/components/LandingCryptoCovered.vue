@@ -1,7 +1,7 @@
 <template>
     <section class="cex-container">
         <h2 class="text-center text-6xl font-bold text-[#4d4f4f] sm:text-5xl">Crypto, covered.</h2>
-        <p class="mx-auto mb-[39px] mt-3 max-w-[780px] text-center text-3xl font-medium text-[#4d4f4f]">
+        <p class="mx-auto mb-[39px] mt-3 max-w-[780px] text-center text-3xl font-medium text-[#4d4f4f] sm:text-2xl">
             We’re crypto-obsessed and compliance-focused, making it safe and easy to buy and sell crypto.
         </p>
 
@@ -9,12 +9,17 @@
             <card-covered>
                 <template #title-top> What to expect from the industry in 2024 </template>
                 <template #overlay>
-                    <video width="100%" height="100%" playsinline autoplay loop muted>
+                    <video width="100%" height="100%" playsinline autoplay loop muted class="sm:hidden">
                         <source
                             src="//videos.ctfassets.net/jg6lo9a2ukvr/4QVIn6YkzW6uIwtdSA2lRb/e7c5996648cecf9ceabd07ad1e790090/Homecard.mp4"
                             type="video/mp4"
                         />
                     </video>
+                    <img
+                        src="https://images.ctfassets.net/jg6lo9a2ukvr/5HfEj7KIu9Lh7yeHe3COKT/c02708cebb215ff907ba1f4efd283c89/HomeCard_mobile.png?fm=avif"
+                        alt=""
+                        class="hidden h-full w-full object-cover sm:block"
+                    />
                 </template>
                 <template #title-bottom> Gemini Crypto Trend Report. </template>
             </card-covered>
@@ -27,14 +32,20 @@
                         <img
                             src="https://images.ctfassets.net/jg6lo9a2ukvr/1fE86snrxS8u4j2ZFARLqb/792198205eb4a8008e4f16a880acfc60/advanced_trading_mode_desktop.png?fm=avif"
                             alt="Mobile Image-ATI Mobile App Section"
+                            class="sm:hidden"
+                        />
+                        <img
+                            src="https://images.ctfassets.net/jg6lo9a2ukvr/1NHfSuvGStxiykNxKSAO47/574c5d4000bb543f59ec01db3c15e59b/mobile_new__1_.png?fm=webp"
+                            alt=""
+                            class="hidden h-full w-full object-cover sm:block"
                         />
                     </picture>
                 </template>
                 <template #title-bottom>
-                    <span class="text-[#000]">Mobile App</span>
+                    <span class="text-[#000] sm:text-white">Mobile App</span>
                 </template>
                 <template #button>
-                    <base-icon name="arrow-circle" size="48"></base-icon>
+                    <base-icon name="arrow-circle" size="48" class="sm:text-white"></base-icon>
                 </template>
             </card-covered>
             <card-covered>
@@ -44,6 +55,12 @@
                         <img
                             src="https://images.ctfassets.net/jg6lo9a2ukvr/27GCWGu5u4ie2dYp0j46wz/e4f3fce254e0325310c859b5218b209d/ActiveTraderBackground__1_.jpg?fm=webp"
                             alt="Mobile Image-ATI Mobile App Section"
+                            class="sm:hidden"
+                        />
+                        <img
+                            src="https://images.ctfassets.net/jg6lo9a2ukvr/73WxijAlNiOT4Xw7ieZRhA/a6d82acf14293084fccb9d9697ad0079/ActiveTraderBackgroundMobile_-updated__1_.jpg?fm=webp"
+                            alt=""
+                            class="hidden h-full w-full object-cover sm:block"
                         />
                     </picture>
                 </template>
