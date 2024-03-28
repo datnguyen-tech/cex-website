@@ -1,6 +1,6 @@
 <template>
     <section class="cex-container">
-        <h2 class="text-center text-6xl font-bold text-[#4d4f4f]">Crypto, covered.</h2>
+        <h2 class="text-center text-6xl font-bold text-[#4d4f4f] sm:text-5xl">Crypto, covered.</h2>
         <p class="mx-auto mb-[39px] mt-3 max-w-[780px] text-center text-3xl font-medium text-[#4d4f4f]">
             We’re crypto-obsessed and compliance-focused, making it safe and easy to buy and sell crypto.
         </p>

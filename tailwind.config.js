@@ -5,7 +5,11 @@ export default {
     container: {
       center: true
     },
-
+    screens: {
+      'sm': {
+        'max': '639px'
+      },
+    },
     extend: {
       colors: {
         primary: 'var(--ai-color-primary)',
@@ -22,7 +26,7 @@ export default {
         'cex-bg-primary': 'var(--ai-bg-primary)',
         'cex-text-primary': 'var(--ai-text-primary)',
         'cex-text-label-mobile': 'var(--ai-text-input-label-mobile)',
-        'blue-500':'linear-gradient(184.5deg, rgb(38, 221, 249) 2.88%, rgb(0, 176, 203) 76.95%)'
+        'blue-500': 'linear-gradient(184.5deg, rgb(38, 221, 249) 2.88%, rgb(0, 176, 203) 76.95%)'
       },
       fontSize: {
         '3xl': ['2rem', '2.5rem'],
