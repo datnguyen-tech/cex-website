@@ -5,7 +5,7 @@
             We’re focused on providing innovative security solutions to protect your assets.
         </p>
         <div class="grid grid-cols-3 gap-[18px] sm:grid-cols-1">
-            <card-rotate class="min-h-[574px] sm:min-h-[32px]">
+            <card-rotate class="min-h-[574px] sm:min-h-[382px]">
                 <template #front>
                     <div class="h-full rounded-2xl bg-white">
                         <img src="/images/Hardware_security_keys.webp" alt="" class="mx-auto h-[451px] sm:h-[288px]" />
@@ -22,7 +22,7 @@
                     </div>
                 </template>
             </card-rotate>
-            <card-rotate class="min-h-[574px] sm:min-h-[32px]">
+            <card-rotate class="min-h-[574px] sm:min-h-[382px]">
                 <template #front>
                     <div class="h-full rounded-2xl bg-white">
                         <img src="/images/two-factor-authentication.webp" alt="" class="mx-auto h-[451px] sm:h-[288px]" />
@@ -39,7 +39,7 @@
                     </div>
                 </template>
             </card-rotate>
-            <card-rotate class="min-h-[574px] sm:min-h-[32px]">
+            <card-rotate class="min-h-[574px] sm:min-h-[382px]">
                 <template #front>
                     <div class="h-full rounded-2xl bg-white">
                         <img src="/images/Approved_addresses.webp" alt="" class="mx-auto h-[451px] sm:h-[288px]" />
