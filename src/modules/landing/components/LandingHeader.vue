@@ -78,7 +78,6 @@
         top: 0px;
         width: 100%;
         height: 60px;
-        /* height: auto; */
         background-color: #010304;
     }
 
@@ -91,7 +90,6 @@
         display: flex;
         justify-content: space-between;
         color: #fff;
-        flex-wrap: wrap;
         padding: 0 20px;
     }
 
@@ -133,7 +131,7 @@
     .actions .btn-signup {
         width: 130px;
         height: 40px;
-        font-size: 12px;
+        font-size: 0.75rem;
         padding: 0px 16px;
         border-radius: 999px;
         background-color: #26ddf9;
@@ -171,7 +169,7 @@
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: #111;
+        background-color: #010304;
         overflow-x: hidden;
         transition: 0.5s;
         padding-top: 60px;
@@ -183,14 +181,17 @@
         position: absolute;
         top: 0;
         right: 25px;
-        font-size: 36px;
+        font-size: 2.25rem;
         margin-left: 50px;
     }
 
     .menu-mb a {
         padding: 16px 16px 16px 32px;
         text-decoration: none;
-        font-size: 2rem;
+        font-weight: 500;
+        font-size: 1.5rem;
+        line-height: 32px;
+        letter-spacing: 0px;
         color: #fff;
         display: block;
         transition: 0.3s;
@@ -214,20 +215,22 @@
         outline: none;
         border: none;
         font-size: 1rem;
+        height: 56px;
     }
 
     .btn-signup-mb {
         width: 80%;
-        height: 40px;
+        height: 56px;
         font-size: 1rem;
-        padding: 0px 16px;
+        font-weight: 500;
+        border: 2px solid rgb(38, 221, 249);
         border-radius: 999px;
+        padding: 0px 16px;
         background-color: #26ddf9;
         color: #010304;
-        font-weight: 500;
+        text-align: center;
         line-height: 16px;
         letter-spacing: 0.33px;
-        text-align: center;
         transition: border-color 300ms ease-in 0s, color 300ms ease-in 0s, background-color 300ms ease-in 0s;
         white-space: nowrap;
     }
@@ -248,18 +251,18 @@
     .banner-header {
         margin-top: 60px;
         padding-top: 100px;
-        font-size: 60px;
-        line-height: 60px;
+        font-size: 3rem;
+        line-height: 48px;
         letter-spacing: -2.64px;
         text-align: center;
         max-width: 680px;
         margin-bottom: 24px;
-        color: rgb(1, 3, 4);
+        color: #010304;
         font-weight: 700;
     }
 
     .banner-intro {
-        font-size: 18px;
+        font-size: 1.125rem;
         line-height: 28px;
         letter-spacing: 0px;
         text-align: center;
@@ -275,14 +278,13 @@
         min-width: 180px;
         height: 56px;
         padding: 0px 32px;
-        font-size: 18px;
+        font-size: 1.125rem;
         border-radius: 999px;
         outline: 0px;
         margin-top: 20px;
-        margin-bottom: -100px;
         cursor: pointer;
         background-color: #26ddf9;
-        color: rgb(1, 3, 4);
+        color: #010304;
         font-weight: 500;
         line-height: 16px;
         letter-spacing: 0.33px;
@@ -304,21 +306,18 @@
     }
 
     .banner-1 {
-        width: 25%;
+        width: 50%;
         position: relative;
-        left: 250px;
+        left: 0;
     }
 
     .banner-2 {
-        width: 40%;
+        width: 100%;
         position: relative;
-        right: 40px;
+        right: 80px;
     }
 
     @media (min-width: 768px) {
-    }
-
-    @media (min-width: 1024px) {
         .menu {
             display: flex;
             height: 100%;
@@ -356,6 +355,28 @@
             min-width: 80px;
             width: auto;
             font-size: 14px;
+        }
+
+        .banner-header {
+            font-size: 60px;
+            line-height: 60px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .btn-get-started {
+            margin-bottom: -100px;
+        }
+
+        .banner-1 {
+            width: 25%;
+            left: 250px;
+        }
+
+        .banner-2 {
+            width: 40%;
+            top: -40px;
+            right: -20px;
         }
     }
 </style>
